@@ -1,8 +1,11 @@
-# bundler
+# nbundler
 NodeJS private package manager
 
 # Usage
 See `test` directory for a complete example.
+
+# Initialization
+You must require `nbundler/setup` prior to including any dependency. This need to be done only once.
 
 # Bundlefile.js
 ```js

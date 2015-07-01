@@ -20,11 +20,11 @@ Bundle automatically augments the require path with packages own directories. So
 
 ```
 /
-  Nodebundle.js
+  Bundlefile.js
   lib
     server.js
   deps
-    Nodebundle.js
+    Bundlefile.js
     pagarme-core
       lib
         transaction.js

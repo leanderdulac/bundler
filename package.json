@@ -1,0 +1,28 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "A internal dependency manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pagarme/bundler.git"
+  },
+  "keywords": [
+    "package",
+    "manager",
+    "dependency",
+    "private"
+  ],
+  "author": "Jonathan Lima <jonathan@pagar.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pagarme/bundler/issues"
+  },
+  "homepage": "https://github.com/pagarme/bundler",
+  "dependencies": {
+    "include-path": "^0.4.7"
+  }
+}
